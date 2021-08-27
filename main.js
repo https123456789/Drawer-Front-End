@@ -7,7 +7,5 @@
 */
 var editor = document.getElementById("svgEditor");
 var displayArea = document.getElementById("displayArea");
-
-console.log(engine.loader.init());
-console.log(engine.loader.add("Templates/SVG/blank.js"));
-console.log(engine.loader.load());
+var editorUpdateLoop = setInterval(updateEditor, 1);
+engine.init();
