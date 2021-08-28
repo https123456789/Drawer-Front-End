@@ -23,3 +23,4 @@ class GraphicObject {
 }
 
 console.log("models.js is loaded.");
+var models = ["blank", "circle"];

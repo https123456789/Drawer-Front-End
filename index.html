@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Drawer Front End Test</title>
-		<style>
-			#editor {
-				background-color: rgba(150, 150, 150, 1);
-			}
-			#editor > *{
-				background-color: rgba(150, 150, 150, 1);
-			}
-		</style>
+		<title>Drawer Front End Replit</title>
+		<link rel="stylesheet" href="style.css?rnd=1">
 	</head>
 	<body>
+		<div id="settingsArea">
+			<button id="settingsBtn">Settings</button>
+		</div>
 		<div id="editor">
 			<textarea id="svgEditor" style="width: 100%;height: 50%;"></textarea>
 			<div id="displayArea"></div>
 		</div>
-		<div id="scriptLoader"></div>
 		<!-- Scripts -->
+		<script src="models.js"></script>
 		<script src="engine.js"></script>
 		<script src="editor.js"></script>
 		<script src="main.js"></script>

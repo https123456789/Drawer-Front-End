@@ -5,6 +5,7 @@
 	Author: Ben Landon
 	Username: https12345678
 */
+
 var editor = document.getElementById("svgEditor");
 var displayArea = document.getElementById("displayArea");
 var editorUpdateLoop = setInterval(updateEditor, 1);
