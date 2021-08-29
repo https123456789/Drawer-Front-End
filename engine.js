@@ -20,8 +20,7 @@ var engine = {
 			if (models.includes(retVal)) {
 				return(retVal);
 			} else {
-				alert(retVal + " is not a valid template.");
-				return(getTemplate());
+				return("blank");
 			}
 		}
 		console.log("Loading template...");

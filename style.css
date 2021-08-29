@@ -16,3 +16,6 @@ body {
 textarea {
 	border: 0px solid rgba(0, 0, 0, 0);
 }
+#displayArea {
+	overflow: scroll;
+}
